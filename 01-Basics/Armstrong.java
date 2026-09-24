@@ -10,6 +10,7 @@ public class Armstrong {
         int n = sc.nextInt();
         System.out.println("Armstrong numbers are: ");
         ArmstrongList(n);
+        sc.close();
     }
     static boolean isArmstrong(int n){
         int num = n;
@@ -20,11 +21,14 @@ public class Armstrong {
             n = n/10;
         }
         return num==res;
+        
     }
     static void ArmstrongList(int n){
         for(int i = 100;i<n;i++){
             if(isArmstrong(i)) System.out.print(i+ " ");
         }
+        
     } 
+    
 }
 

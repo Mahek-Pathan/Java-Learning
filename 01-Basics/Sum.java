@@ -1,6 +1,5 @@
-import java.lang.*;
+
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Sum {
     /*public static int sumof(int a, int b){
